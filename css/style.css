@@ -2,13 +2,59 @@
     max-width: 71.3rem;
 }
 
-.hero {
-    background: url("../images/water-hero.jpg");
-    background-size: cover;
-    height: 80%;
+.head-info {
+	margin-top:60px;
 }
 
 .nav-bar .button {
 	background-color: white;
-	color:black;
+	color:#b2b2b2;
+}
+
+.hero {
+    background: url("../images/water-hero.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 80%;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.hero h1 {
+	color:#ea4d60;
+	font-size:60px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.hero p {
+	color:#b3b3b3;
+	font-size:24px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.wel-text {
+  position: relative;
+  bottom: 50%;
+  transform: translateY(55%);
+}
+
+
+ 
+
+ 
+footer {
+	background-color:#008c7b;
+/*	z-index: 0;
+	position: fixed;
+	bottom: 0;
+  	left: 0;
+  	width:100%;*/
+}
+
+.footer-left {
+	background-color:#01b39e;
+	    float: left;
+}
+
+.footer-right {
+	float: left;
 }
