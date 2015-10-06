@@ -17,6 +17,47 @@ body {
 	color:#b2b2b2;
 }
 
+.nav-bar .register-home {
+	background-color: #ec1b50;
+	color: white;
+	border-radius:10px;
+}
+
+.nav-bar .button.active {
+	color:#fbb836;
+}
+
+.button-group i {
+	margin-right:8px;
+}
+
+.agenda-head {
+	background: url("../images/agenda-head.jpg");
+    background-repeat: no-repeat;
+    height: 450px;
+    padding-top:70px;
+   }
+
+.agenda-head  .nav-bar .button {
+    background-color: transparent;
+    color: white;
+}
+
+.agenda-head  .nav-bar .register-home {
+	background-color: #ec1b50;
+	color: white;
+	border-radius:10px;
+}
+
+.agenda-head h1 {
+	color: white;
+}
+.agend-txt {
+    top: 50%;
+    transform: translateY(50%);
+    left: 0;
+}
+
 .hero {
     background: url("../images/water-hero.jpg");
     background-repeat: no-repeat;
@@ -83,6 +124,15 @@ body {
 	text-align: center;
 }
 
+
+.agenda-details h2 {
+	color:#ec1b50;
+}
+
+.dates {
+	border-left:1px solid red;
+	padding-left: 70px;
+}
 /**Homepage Slider**/
 
 .homepage-slider {padding: 0; height: 350px; position: relative; overflow: hidden; width: 500px;}
@@ -103,7 +153,7 @@ footer {
 }
 
 .footer-left {
-	padding-top: 15px;
+	padding: 25px 0;
 	background-color:#01b39e;
 	float: left;
 	width:50%;
