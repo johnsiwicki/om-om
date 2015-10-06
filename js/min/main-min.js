@@ -1,1 +1,1 @@
-$(document).foundation(),$(window).scroll(function(){var t="300";$(".hotel-left").stop().animate({right:t+"px"},"fast"),$(".hotel-right").stop().animate({left:t+"px"},"fast")});
+$(document).foundation(),$(window).scroll(function(){var t="300";$(".hotel-left").stop().animate({right:t+"px"},500),$(".hotel-right").stop().animate({left:t+"px"},500)});

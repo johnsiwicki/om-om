@@ -41,6 +41,7 @@ body {
 .agenda-head  .nav-bar .button {
     background-color: transparent;
     color: white;
+    border: none;
 }
 
 .agenda-head  .nav-bar .register-home {
@@ -62,7 +63,7 @@ body {
     background: url("../images/water-hero.jpg");
     background-repeat: no-repeat;
     background-position: center;
-    height: 80%;
+    height: 630px;
     font-family: 'Open Sans', sans-serif;
 }
 
@@ -81,7 +82,7 @@ body {
 .wel-text {
   position: relative;
   bottom: 50%;
-  transform: translateY(55%);
+   transform: translateY(28%);
 }
 
 .hotel-info {
@@ -147,6 +148,13 @@ body {
 /**End Homepage Slider**/
 
 
+
+
+.icon-row {
+	background: #faad17;
+	color:white;
+	margin: 15px 0 0 0;
+}
 footer {
 	background-color:#008c7b;
  
