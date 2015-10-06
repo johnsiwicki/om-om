@@ -1,8 +1,14 @@
+body {
+	font-size:16px;
+	color:#b3b3b3;
+	font-family: 'Open Sans', sans-serif;
+}
+
 .row {
     max-width: 71.3rem;
 }
 
-.head-info {
+.head-info, .about {
 	margin-top:60px;
 }
 
@@ -37,24 +43,89 @@
   transform: translateY(55%);
 }
 
+.hotel-info {
+	margin: 25px 0;
+	overflow:hidden;
+    background: url("../images/slider-center.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 500px;
+    font-family: 'Open Sans', sans-serif;
+    position:relative;
+    z-index:2;
+}
 
+.hotel-left, .hotel-right {
+	width:50%;
+	float:left;
+	position:relative;
+	 z-index:10;
  
+}
 
- 
+.date-txt h2 {
+    color: white;
+    font-size:32px;
+    line-height: 75px;
+    font-family: 'Open Sans', sans-serif;
+    position: relative;
+    text-align: center;
+    top: 50%;
+    transform: translateY(-55%);
+    left: 0;
+    z-index:1;
+}
+
+.about h4 {
+	color:#ea4d60;
+	font:24px/28px 'Open Sans', sans-serif;
+	text-align: center;
+}
+
+/**Homepage Slider**/
+
+.homepage-slider {padding: 0; height: 350px; position: relative; overflow: hidden; width: 500px;}
+.homepage-slider .homepage-slides {position: absolute; top: 0; left: 0px; padding: 0; margin: 0;}
+.homepage-slider .homepage-slides li {width: 500px; height: 350px; position: relative; float: left; list-style: none;}
+.homepage-slider span {position: relative; padding: 5px 10px;display: inline-block; font-size: 12px;line-height:16px;}
+.homepage-slider .homepage-pagination {text-align: right; position: absolute;bottom: 2px; right: 20px; z-index: 5;}
+.homepage-slider .homepage-pagination li {float: none; display: inline; font-size: 0.75em; padding: 0.5em;}
+.homepage-slider .homepage-pagination li a  {border-radius: 0px;-webkit-transform: rotate(45deg);transform: rotate(45deg);background: #B7B7B7;width: 8px;height: 8px; overflow: hidden;
+    line-height: 10px; font-size: 1px; text-indent: -999em; display: inline-block; *display: inline; *zoom: 1;}
+.homepage-slider .homepage-pagination li.active-marker a, .homepage-slider .homepage-pagination li a:hover {background: #ED1848 !important;}
+/**End Homepage Slider**/
+
+
 footer {
 	background-color:#008c7b;
-/*	z-index: 0;
-	position: fixed;
-	bottom: 0;
-  	left: 0;
-  	width:100%;*/
+ 
 }
 
 .footer-left {
+	padding-top: 15px;
 	background-color:#01b39e;
-	    float: left;
+	float: left;
+	width:50%;
+}
+
+.footer-left .qs {
+	margin-top:15px;
+	font: bold 24px/28px 'Open Sans', sans-serif;
+	color:white;
+}
+
+.footer-left .numbers {
+	font: bold 34px/28px 'Open Sans', sans-serif;
+	color:#007668;
+}
+
+.footer-left .contact-name {
+	font: bold 24px/28px 'Open Sans', sans-serif;
+	color:white;
 }
 
 .footer-right {
 	float: left;
+	width:50%;
 }
