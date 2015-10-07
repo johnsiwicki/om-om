@@ -86,6 +86,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 1
 		},
+	"\/images\/logo-splash.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 77170,
+		"inputAbbreviatedPath": "\/images\/logo-splash.png",
+		"outputAbbreviatedPath": "\/images\/logo-splash.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/logo-white.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -95,7 +106,7 @@
 		"outputAbbreviatedPath": "\/images\/logo-white.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/images\/logo.png": {
 		"fileType": 32768,
@@ -185,6 +196,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 1
 		},
+	"\/images\/travel-head.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 88817,
+		"inputAbbreviatedPath": "\/images\/travel-head.jpg",
+		"outputAbbreviatedPath": "\/images\/travel-head.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/travel-slide1.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -194,7 +216,7 @@
 		"outputAbbreviatedPath": "\/images\/travel-slide1.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/images\/water-hero.jpg": {
 		"fileType": 16384,

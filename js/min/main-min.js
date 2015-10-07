@@ -1,1 +1,1 @@
-$(document).foundation(),$(window).scroll(function(){var t="300";$(".hotel-left").stop().animate({right:t+"px"},500),$(".hotel-right").stop().animate({left:t+"px"},500)});
+$(document).foundation(),$(window).scroll(function(){var t="300";$(".hotel-left").stop().animate({right:t+"px"},600),$(".hotel-right").stop().animate({left:t+"px"},600)}),$(document).ready(function(){$(".animsition-link").click(function(t){t.preventDefault(),$(this).velocity("transition.fadeOut",250),$(".fullscreen_show").velocity({height:0},1250)})});

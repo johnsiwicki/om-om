@@ -4,11 +4,33 @@ body {
 	font-family: 'Open Sans', sans-serif;
 }
 
+ .fullscreen_show{
+ 	z-index: 1000;
+    width: 100%;
+    height: 100%;
+    background: white;
+    position:absolute;
+    box-shadow: 0px 10px 20px rgba(0,0,0,.2);
+}
+
+.main-head {
+	position:relative;
+	z-index:-2;
+}
+
+
+.splash-logo {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
 .row {
     max-width: 71.3rem;
 }
 
-.head-info, .about {
+.head-info, .about, .traveling {
 	margin-top:60px;
 }
 
@@ -38,25 +60,32 @@ body {
     padding-top:70px;
    }
 
-.agenda-head  .nav-bar .button {
+.white-head  .nav-bar .button {
     background-color: transparent;
     color: white;
     border: none;
 }
 
-.agenda-head  .nav-bar .register-home {
+.white-head  .nav-bar .register-home {
 	background-color: #ec1b50;
 	color: white;
 	border-radius:10px;
 }
 
-.agenda-head h1 {
+.white-head h1 {
 	color: white;
 }
 .agend-txt {
     top: 50%;
     transform: translateY(50%);
     left: 0;
+}
+
+.travel-head {
+	background: url("../images/travel-head.jpg");
+    background-repeat: no-repeat;
+    height: 450px;
+    padding-top:70px;
 }
 
 .hero {
@@ -134,19 +163,12 @@ body {
 	border-left:1px solid red;
 	padding-left: 70px;
 }
-/**Homepage Slider**/
 
-.homepage-slider {padding: 0; height: 350px; position: relative; overflow: hidden; width: 500px;}
-.homepage-slider .homepage-slides {position: absolute; top: 0; left: 0px; padding: 0; margin: 0;}
-.homepage-slider .homepage-slides li {width: 500px; height: 350px; position: relative; float: left; list-style: none;}
-.homepage-slider span {position: relative; padding: 5px 10px;display: inline-block; font-size: 12px;line-height:16px;}
-.homepage-slider .homepage-pagination {text-align: right; position: absolute;bottom: 2px; right: 20px; z-index: 5;}
-.homepage-slider .homepage-pagination li {float: none; display: inline; font-size: 0.75em; padding: 0.5em;}
-.homepage-slider .homepage-pagination li a  {border-radius: 0px;-webkit-transform: rotate(45deg);transform: rotate(45deg);background: #B7B7B7;width: 8px;height: 8px; overflow: hidden;
-    line-height: 10px; font-size: 1px; text-indent: -999em; display: inline-block; *display: inline; *zoom: 1;}
-.homepage-slider .homepage-pagination li.active-marker a, .homepage-slider .homepage-pagination li a:hover {background: #ED1848 !important;}
-/**End Homepage Slider**/
 
+.traveling h2, .hotel h3 {
+	font: normal 30px/42px 'Open Sans', sans-serif;
+	color: #ec1b50;;
+}
 
 
 
@@ -155,6 +177,28 @@ body {
 	color:white;
 	margin: 15px 0 0 0;
 }
+
+.icon-row h2 {
+	font: bold 30px/40px 'Open Sans', sans-serif;
+	margin-bottom:10px;
+	color:white;
+}
+
+.icon-row p {
+	font: normal 16px/32px 'Open Sans', sans-serif;
+	color:white;
+}
+
+.icon-row i {
+	margin:80px 0 10px 0;
+	font-size: 80px;
+	color:#ec1b50;
+}
+
+.icon-single {
+	text-align: center;
+}
+
 footer {
 	background-color:#008c7b;
  
@@ -187,3 +231,6 @@ footer {
 	float: left;
 	width:50%;
 }
+
+
+ 
