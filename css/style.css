@@ -8,6 +8,10 @@ body {
  	z-index: 1000;
     width: 100%;
     height: 100%;
+   	left: 0;
+	top: 0;
+	right:0;
+	bottom:0;
     background: white;
     position:absolute;
     box-shadow: 0px 10px 20px rgba(0,0,0,.2);
@@ -30,7 +34,7 @@ body {
     max-width: 71.3rem;
 }
 
-.head-info, .about, .traveling {
+.head-info, .about, .traveling, .agenda-details {
 	margin-top:60px;
 }
 
@@ -55,11 +59,16 @@ body {
 
 .agenda-head {
 	background: url("../images/agenda-head.jpg");
+	background-size: cover;
     background-repeat: no-repeat;
     height: 450px;
     padding-top:70px;
    }
 
+
+.white-head .nav-bar .button.active {
+	color:#fbb836;
+}
 .white-head  .nav-bar .button {
     background-color: transparent;
     color: white;
@@ -83,6 +92,7 @@ body {
 
 .travel-head {
 	background: url("../images/travel-head.jpg");
+	    background-size: cover;
     background-repeat: no-repeat;
     height: 450px;
     padding-top:70px;
@@ -125,14 +135,19 @@ body {
     font-family: 'Open Sans', sans-serif;
     position:relative;
     z-index:2;
+    box-shadow: inset 30px -1px 50px #000000;
 }
 
 .hotel-left, .hotel-right {
 	width:50%;
 	float:left;
 	position:relative;
-	 z-index:10;
- 
+	z-index:10;
+	box-shadow: 10px -1px 50px #000000;
+}
+
+.hotel-right {
+	    box-shadow: 0px 8px 53px #000000;
 }
 
 .date-txt h2 {
@@ -143,9 +158,11 @@ body {
     position: relative;
     text-align: center;
     top: 50%;
-    transform: translateY(-55%);
+    transform: translateY(-50%);
     left: 0;
     z-index:1;
+    font-weight: bold;
+    text-transform: uppercase;
 }
 
 .about h4 {
@@ -162,15 +179,28 @@ body {
 .dates {
 	border-left:1px solid red;
 	padding-left: 70px;
+	margin: 35px 0;
 }
 
+.dates .time-stamp {
+	color:#a4a4a4;
+	font-weight: 900;
+}
+
+ 
 
 .traveling h2, .hotel h3 {
 	font: normal 30px/42px 'Open Sans', sans-serif;
 	color: #ec1b50;;
 }
 
-
+.traveling p {
+	font: normal 16px/34px 'Open Sans', sans-serif;
+}
+.travel-img {
+	border: 5px solid #3dbcaa;
+	border-radius: 50%;
+}
 
 .icon-row {
 	background: #faad17;
@@ -211,10 +241,19 @@ footer {
 	width:50%;
 }
 
+
+.footer-right h2 {
+	margin-top:15px;
+	font: bold 24px/28px 'Open Sans', sans-serif;
+	color:white;
+	text-align: center;
+}
+
 .footer-left .qs {
 	margin-top:15px;
 	font: bold 24px/28px 'Open Sans', sans-serif;
 	color:white;
+	text-align: center;
 }
 
 .footer-left .numbers {
@@ -225,6 +264,7 @@ footer {
 .footer-left .contact-name {
 	font: bold 24px/28px 'Open Sans', sans-serif;
 	color:white;
+	text-align: center;
 }
 
 .footer-right {

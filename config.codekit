@@ -53,6 +53,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 1
 		},
+	"\/images\/cancun-weather.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 55429,
+		"inputAbbreviatedPath": "\/images\/cancun-weather.jpg",
+		"outputAbbreviatedPath": "\/images\/cancun-weather.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/CS.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -196,6 +207,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 1
 		},
+	"\/images\/travel-cancun.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 70745,
+		"inputAbbreviatedPath": "\/images\/travel-cancun.jpg",
+		"outputAbbreviatedPath": "\/images\/travel-cancun.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/travel-head.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -217,6 +239,39 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 1
+		},
+	"\/images\/travel-slide2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 156238,
+		"inputAbbreviatedPath": "\/images\/travel-slide2.jpg",
+		"outputAbbreviatedPath": "\/images\/travel-slide2.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/travel-slide3.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 83562,
+		"inputAbbreviatedPath": "\/images\/travel-slide3.jpg",
+		"outputAbbreviatedPath": "\/images\/travel-slide3.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/travel-slide4.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 180948,
+		"inputAbbreviatedPath": "\/images\/travel-slide4.jpg",
+		"outputAbbreviatedPath": "\/images\/travel-slide4.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
 		},
 	"\/images\/water-hero.jpg": {
 		"fileType": 16384,
